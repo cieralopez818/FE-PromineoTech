@@ -1,0 +1,190 @@
+/* GLOBAL */@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    font-family: 'Monaco', sans-serif;
+    background-color: rgb(237, 237, 224);
+}
+ 
+
+figcaption {
+    text-align: center;
+    font-size:small;
+    font-weight:normal;
+    color: rgb(22, 165, 184);
+}
+
+#solid-heading{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    filter: drop-shadow rgb(244, 213, 213);
+}
+
+/* NAVIATION BAR */
+.navbar {
+    float: center;
+    background-color: rgb(244, 205, 189);
+    padding: 1px;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar li{
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+    background:none;
+    color: white;
+    padding: 10px;
+    float: left;
+}
+
+.navbar a{
+    color: solid black;
+    text-decoration:solid;
+    font-size: larger;
+    text-align: center;
+    display: block;
+}
+
+.navbar a:hover{
+   color: rgba(219, 238, 246, 0.902) ;
+    
+}
+
+.navbar li:hover{
+    color: rgba(84, 90, 21, 0.902) ;
+    background: rgba(91, 81, 81, 0.139);
+}
+
+
+.navbar li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration:none;
+}
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+}
+
+/* HOME PAGE TEXT AND IMAGES */
+.home-paragraph-div h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    filter: drop-shadow(2px 2px 1px #204d7a);
+}
+
+.home-paragraph-div p{
+    margin: 10px 50px 20px 50px;
+    font-size: 1.1rem;
+}
+
+.home-images-div {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5) ;
+}
+
+.home-images-div ul li{
+    font-style: apple chancery;
+}
+
+.home-images-div img{
+    border-radius: 1rem;
+    margin: auto;
+}
+
+/* ABOUT PAGE */
+.top-pic-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-pic-div img{
+    border-radius: 1rem;
+}
+
+.info-paragraph {
+    margin: 10px 50px 20px 50px;
+    font-size: medium;
+    font-style: normal;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container th, td {
+    width: 0;
+    padding: 5px 5px;
+    text-align: start;
+    border-bottom: 1px solid rgb(66, 37, 7);
+}
+
+.container table {
+    border-collapse: separate;
+    width: 100%;
+}
+
+.material-list-div {
+    max-width: 500px;
+    margin: 5rem auto;
+    color: rgb(241, 172, 92);
+    padding: 1rem 5rem;
+    background-color: rgba(19, 49, 223, 0.877);
+    border-radius: 1rem;
+    font-weight: 300;
+    font-size:small;
+}
+
+.comment-div {
+    font-size: small;
+    color:rgba(165, 50, 42, 0.993);
+}
+
+
+.contact-form-div{
+    font-size:medium;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* CONTACT PAGE */
+input[type="submit"] {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: rgba(238, 206, 218, 0.28);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
+
+input[type=submit]:hover{
+    background-color: #fff;
+    color:  rgb(233, 239, 245);
+}
