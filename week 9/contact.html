@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrakesh</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <!-- <style>
+        div{
+            border-style:solid;
+            border-color: black;
+            border-width: 1px;
+        }
+    </style> -->
+
+</head>
+
+<body class="bg-light">
+    <div id="main-container" class="container pt-2 pb-5 bg-light mt-5 mb-5">  
+
+        <!-- NAVBAR STARTS -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a 
+                    class="navbar-brand mb-0 h1" 
+                    href="#">
+                    Travel Marrakesh
+                </a>
+              <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+                >
+                <!-- Hamburger menu -->
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div 
+                class="collapse navbar-collapse" 
+                id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a href="week9Index.html" class="nav-link">
+                        Home
+                    </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a href="places.html" class="nav-link active" aria-current="page">
+                        Places
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="food.html" class="nav-link">
+                        Food
+                      </a>
+                  </li>
+                </ul>
+              </div>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+
+        <!-- NAVBAR ENDS -->
+
+        <!-- CAROUSEL START-->
+        <div id="carouselExampleCaptions" class="carousel slide mt-5 mb-5" data-bs-ride="false" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://travel.usnews.com/dims4/USNEWS/854c0a9/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https://travel.usnews.com/images/souks_P4IvvfQ.jpg" class="d-block w-100" alt="picture of the medina">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>#1 in Marrakesh</h5>
+                  <p>The Medina of Marrakesh</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://blog.blueseahotels.com/en/wp-content/uploads/sites/4/2016/06/Jemaa-header-770x513.jpg" class="d-block w-100" alt="picture of Jemaa El Fna">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>#2 in Marrakesh</h5>
+                  <p>Jemaa El Fna</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://travel.usnews.com/dims4/USNEWS/6d2fd98/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https://travel.usnews.com/images/bahia_palace_window_pkNCCXD.jpg" class="d-block w-100" alt="picture of Bahia Palace">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>#3 in Marrakesh</h5>
+                  <p>Bahia Palace (Palais Bahia)</p>
+                </div>
+              </div> 
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- CAROUSEL END -->
+        
+        <!-- TOP TEN PLACES START -->
+        <div id="top-10" class="container text-left mb-5 fs-4  shadow-sm">
+            <div class="row  mb-3"><h4>TOP 10 PLACES TO VISIT IN MARRAKESH</h4></div>
+            <div class="row">
+                <div class="col-md-6">#1 Medina of Marrakesh</div>
+                <div class="col-md-6">#2 Jemaa El Fna</div>
+                <div class="col-md-6">#3 Bahia Palace</div>
+                <div class="col-md-6">#4 Badi Palace</div>
+                <div class="col-md-6">#5 Koutoubia Mosque</div>
+                <div class="col-md-6">#6 Majorelle Garden</div>
+                <div class="col-md-6">#7 Museum of Photography</div>
+                <div class="col-md-6">#8 Hammams</div>
+                <div class="col-md-6">#9 Marrakech Desert Tours</div>
+                <div class="col-md-6">#10 Saadian Tombs</div>
+            </div>
+        </div>
+        <!-- TOP 10 PLACES END -->
+        
+        <!--  FORM START -->
+        <div class="container mt-5">
+            <h5>Have you visited any of these places? Leave me a comment!</h5>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (310)123-4567">
+                </div>
+                <div class="col-md-12">
+                    <label for="comments" class="form-label">Comments, questions?</label>
+                    <textarea class="form-control" id="comments" rows="3" required></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+        <!-- FORM END  -->
+        
+    </div>
+    <!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
